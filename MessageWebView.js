@@ -20,6 +20,9 @@ export default class MessageWebView extends React.Component {
         
             })
         }
+        this.state = {
+            init: false
+        }
     }
     postMessage(action) {
         this.WebView.postMessage(JSON.stringify(action))
@@ -35,8 +38,11 @@ export default class MessageWebView extends React.Component {
 
     render() {
         const { html, source, url, onMessage, ...props } = this.props
-        if(this.webview){
+        if(this.webview && !this.state.init){
             console.log(this.props.execute())
+            this.setState({
+                init: true
+            })
             this.webview.injectJavaScript(this.props.execute())
         }
         return (
