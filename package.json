@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "react-native-recaptcha-v3@0.0.16",
+      "/Users/rekeningku/Documents/Projects/Repositories/new-rn-apollo"
+    ]
+  ],
+  "_from": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+  "_id": "react-native-recaptcha-v3@0.0.16",
+  "_inBundle": false,
+  "_integrity": "sha512-uZqMwasOwXM8o6vSZLq8TrY7X9eCIwgr3OqgGfLcuOAk7L0+5hWcWFUvjgUJG2cdzqB5080chKlBFXi1bzgMNA==",
+  "_location": "/react-native-recaptcha-v3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+    "name": "react-native-recaptcha-v3",
+    "escapedName": "react-native-recaptcha-v3",
+    "rawSpec": "git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+    "saveSpec": "git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+    "fetchSpec": "https://github.com/deceive3w/react-native-recaptcha.git",
+    "gitCommittish": "e7401ea3f28324bb32a25b92564deee947e20607"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+  "_spec": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
+  "_where": "/Users/rekeningku/Documents/Projects/Repositories/rekeningku-rnn-2",
+  "author": {
+    "name": "Akash Sant"
+  },
+  "bugs": {
+    "url": "https://github.com/acsant/react-native-recaptcha/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "merge": ">=1.2.1",
+    "prop-types": "^15.6.1"
+  },
+  "deprecated": false,
+  "description": "A react native wrapper for Google ReCaptcha V3",
+  "homepage": "https://github.com/acsant/react-native-recaptcha#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "wrapper",
+    "google",
+    "recaptcha",
+    "v3",
+    "security"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "react-native-recaptcha-v3",
+  "peerDependencies": {
+    "react-native": "*",
+    "react-native-webview": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acsant/react-native-recaptcha.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.16"
+}
