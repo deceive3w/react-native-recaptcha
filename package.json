@@ -55,8 +55,7 @@
   "main": "index.js",
   "name": "react-native-recaptcha-v3",
   "peerDependencies": {
-    "react-native": "*",
-    "react-native-webview": "*"
+    "react-native": "*"
   },
   "repository": {
     "type": "git",
