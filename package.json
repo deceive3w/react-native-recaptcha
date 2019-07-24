@@ -5,11 +5,7 @@
       "/Users/rekeningku/Documents/Projects/Repositories/new-rn-apollo"
     ]
   ],
-<<<<<<< HEAD
   "_from": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
-=======
-  "_from": "git+https://github.com/deceive3w/react-native-recaptcha.git#v2",
->>>>>>> 84f7f9d... fix in hermes
   "_id": "react-native-recaptcha-v3@0.0.16",
   "_inBundle": false,
   "_integrity": "sha512-uZqMwasOwXM8o6vSZLq8TrY7X9eCIwgr3OqgGfLcuOAk7L0+5hWcWFUvjgUJG2cdzqB5080chKlBFXi1bzgMNA==",
@@ -17,7 +13,6 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-<<<<<<< HEAD
     "raw": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
     "name": "react-native-recaptcha-v3",
     "escapedName": "react-native-recaptcha-v3",
@@ -25,26 +20,12 @@
     "saveSpec": "git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
     "fetchSpec": "https://github.com/deceive3w/react-native-recaptcha.git",
     "gitCommittish": "e7401ea3f28324bb32a25b92564deee947e20607"
-=======
-    "raw": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#v2",
-    "name": "react-native-recaptcha-v3",
-    "escapedName": "react-native-recaptcha-v3",
-    "rawSpec": "git+https://github.com/deceive3w/react-native-recaptcha.git#v2",
-    "saveSpec": "git+https://github.com/deceive3w/react-native-recaptcha.git#v2",
-    "fetchSpec": "https://github.com/deceive3w/react-native-recaptcha.git",
-    "gitCommittish": "v2"
->>>>>>> 84f7f9d... fix in hermes
   },
   "_requiredBy": [
     "/"
   ],
-<<<<<<< HEAD
   "_resolved": "git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
   "_spec": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#e7401ea3f28324bb32a25b92564deee947e20607",
-=======
-  "_resolved": "git+https://github.com/deceive3w/react-native-recaptcha.git#e66d8607f406e8ef1c0150dd07281e0367376473",
-  "_spec": "react-native-recaptcha-v3@git+https://github.com/deceive3w/react-native-recaptcha.git#v2",
->>>>>>> 84f7f9d... fix in hermes
   "_where": "/Users/rekeningku/Documents/Projects/Repositories/rekeningku-rnn-2",
   "author": {
     "name": "Akash Sant"

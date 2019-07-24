@@ -47,11 +47,6 @@ export default class MessageWebView extends React.Component {
                 style={props.containerStyle}
                 javaScriptEnabled
                 automaticallyAdjustContentInsets
-<<<<<<< HEAD
-=======
-                mixedContentMode={"compatibility"}
-                
->>>>>>> 84f7f9d... fix in hermes
                 injectedJavaScript={patchPostMessageJsCode}
                 source={source ? source : html ? { html } : url}
                 ref={x => {this.webview = x}}
