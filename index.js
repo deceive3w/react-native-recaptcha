@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import MessageWebView from './MessageWebView';
 import PropTypes from 'prop-types';
+<<<<<<< HEAD
 import {Platform, Linking} from 'react-native';
+=======
+import { Platform, Linking, Clipboard } from 'react-native';
+>>>>>>> 84f7f9d... fix in hermes
 
 const RECAPTCHA_SUB_STR="https://www.google.com/recaptcha/api2/anchor?";
 const RECAPTCHA_SUB_STR_FRAME="https://www.google.com/recaptcha/api2/bframe";
@@ -10,7 +14,10 @@ export const type = Object.freeze({"invisible": 1, "normal": 2});
 
 
 const execute = (siteKey, action, onReady)=>(
+<<<<<<< HEAD
     `(${String(onReady)})(); ` +
+=======
+>>>>>>> 84f7f9d... fix in hermes
 'grecaptcha.execute(\'' + siteKey + '\', {action: \'' + action + '\'}).then( '+
     'function (responseToken) { window.postMessage(responseToken);  } ' +
 ' ); '
@@ -115,6 +122,10 @@ export default class ReCaptcha extends Component {
             messageAction,
         } = this.props;
 
+<<<<<<< HEAD
+=======
+        Clipboard.setString(getInvisibleRecaptchaContent(siteKey, action, onReady))
+>>>>>>> 84f7f9d... fix in hermes
         return (
             <MessageWebView
                 ref={(ref) => { this.webview = ref ;}}
