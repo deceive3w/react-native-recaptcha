@@ -44,13 +44,13 @@ export default class MessageWebView extends React.Component {
 
     render() {
         const { html, source, url, onMessage, ...props } = this.props
-        if(this.webview && !this.state.init){
-            console.log(this.props.execute())
-            this.setState({
-                init: true
-            })
-            this.webview.injectJavaScript(this.props.execute())
-        }
+//         if(this.webview && !this.state.init){
+//             console.log(this.props.execute())
+//             this.setState({
+//                 init: true
+//             })
+//             this.webview.injectJavaScript(this.props.execute())
+//         }
         return (
             <View style={props.containerStyle}>
             <WebView
